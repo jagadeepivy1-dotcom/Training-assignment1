@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EasyRandomSuite" verbose="1">
+    <test name="UnitTests">
+        <packages>
+            <!-- 
+            Update the package name below to match your project's test package structure.
+            This will run all TestNG tests within that package and its sub-packages.
+            -->
+            <package name="org.jeasy.random.*"/>
+        </packages>
+    </test>
+</suite>
